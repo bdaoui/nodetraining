@@ -7,5 +7,10 @@ console.log(chalk.blue("hello world"));
 
 
 const server = http.createServer( (request, response) =>{
-    
+    if( request.url === '/') return response.write("this is the home page");
+    if(request.url === '/about') return response.write("this is the about page");
+
+    response.write("<h1>404 page not found <h1>")
+
+
 })
