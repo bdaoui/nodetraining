@@ -1,15 +1,22 @@
 {
-  "name": "day0",
+  "name": "nodetraining",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository is being used to train node.js competency",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdaoui/nodetraining.git"
+  },
   "author": "Bdaoui",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdaoui/nodetraining/issues"
+  },
+  "homepage": "https://github.com/bdaoui/nodetraining#readme",
   "dependencies": {
-    "chalk": "^5.0.1"
+    "chalk": "^4.1.2"
   }
 }
