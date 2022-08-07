@@ -14,3 +14,5 @@ const server = http.createServer( (request, response) =>{
 
 
 })
+
+server.listen(port, () => console.log(`server is listeningon port ${port}`))
